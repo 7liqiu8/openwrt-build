@@ -80,3 +80,5 @@ UPDATE_VERSION() {
 #UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
 UPDATE_VERSION "sing-box"
 UPDATE_VERSION "tailscale"
+# 添加lucky软件包
+git clone https://github.com/gdy666/luci-app-lucky.git
