@@ -41,4 +41,4 @@ jobs:
       #软件源
       FEEDS_CONF: feeds.conf.default
       #配置文件
-      CONFIG_FILE: config/libWrt/wifi.config
+      CONFIG_FILE: config/libWrt/wifi2.config
