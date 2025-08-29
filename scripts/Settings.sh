@@ -8,7 +8,7 @@ echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config
 mkdir -p files/etc
 echo "net.netfilter.nf_conntrack_udp_timeout=10" >> files/etc/sysctl.conf
 echo "net.netfilter.nf_conntrack_udp_timeout_stream=60" >> files/etc/sysctl.conf
-
+sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
 #高通平台调整
 if [[ $TARGET == *"ipq"* ]]; then
