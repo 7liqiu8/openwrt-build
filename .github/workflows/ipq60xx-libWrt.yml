@@ -24,7 +24,7 @@ jobs:
           - TARGET: ipq60xx-libWrt-nowifi
             CONFIG_FILE: nowifi.config
           - TARGET: ipq60xx-libWrt-wifi
-            CONFIG_FILE: wifi.config
+            CONFIG_FILE: wifi2.config
 
 
     #调用公用编译核心WRT-CORE.yml
